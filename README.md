@@ -1,7 +1,7 @@
 # Algoritmos e Programação II - Aulas de Laboratório
 Ambiente para compilação de programas para a disciplina de Algoritmos e Programação do curso de BCC da FCI
 
-# Compilando programas em C no GitHub Codespaces
+## Compilando programas em C no GitHub Codespaces
 
 Este repositório contém os programas em **C** que serão desenvolvidos nas aulas de laboratório que podem ser compilados diretamente no terminal do GitHub Codespaces usando o **GCC**.
 
