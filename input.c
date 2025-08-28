@@ -21,7 +21,7 @@ int main(){
     scanf("%d",&a);
 
     printf("Valor inserido: %d\n",a);
-    //printf("Endereco de memoria: %x",a);
+    printf("Endereco de memoria: %p\n",&a);
 
     return 0;
 }
