@@ -6,7 +6,7 @@ char letras[26] = {
     'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'
 };
 
-//correlação em código morse
+//codigo morse correspondente
 char morse[26][5] = {
     ".-","-...","-.-.","-..",".","..-.","--.","....","..",".---",
     "-.-",".-..","--","-.","---",".--.","--.-","._.","...","-",
@@ -150,3 +150,4 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
