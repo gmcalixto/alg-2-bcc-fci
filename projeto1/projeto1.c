@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-/* ---------------- Tabela de Tradução Morse ---------------- */
+//letras do alfabeto
 char letras[26] = {
     'A','B','C','D','E','F','G','H','I','J','K','L','M',
     'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'
 };
 
+//codigo morse correspondente
 char morse[26][5] = {
     ".-","-...","-.-.","-..",".","..-.","--.","....","..",".---",
     "-.-",".-..","--","-.","---",".--.","--.-","._.","...","-",
@@ -149,3 +150,4 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
