@@ -9,10 +9,9 @@ int main(void) {
 
     for (i = 2; i < n; i++) {
         if (n % i == 0) {
-            primo = 0;      
-        } else {
-            primo = 1;     
-        }
+            primo = 0;
+            break;
+        }      
     }
 
     if (primo) {

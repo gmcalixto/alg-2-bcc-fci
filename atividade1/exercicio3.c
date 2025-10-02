@@ -4,7 +4,7 @@ int main(void) {
     int v[100];
     int n, i;
     int soma = 0;
-    int maior = 0;
+    int maior;
 
     printf("Quantos elementos (1 a 100)? ");
     scanf("%d", &n);
@@ -12,6 +12,7 @@ int main(void) {
     printf("Digite %d inteiros:\n", n);
     for (i = 0; i < n; i++) {
         scanf("%d", &v[i]);
+        if(i == 0) maior = v[0];
     }
 
     for (i = 0; i < n; i++) {
@@ -22,7 +23,7 @@ int main(void) {
     }
 
    
-    float media = soma / n;
+    float media = (float) soma / n;
 
     printf("Media = %.2f\n", media);
     printf("Maior = %d\n", maior);

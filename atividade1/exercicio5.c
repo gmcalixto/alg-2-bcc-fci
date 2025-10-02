@@ -12,8 +12,9 @@ int main(void) {
 
     printf("Antes da troca: x = %d, y = %d\n", x, y);
 
+    int temp = *px;
     *px = *py;  
-    *py = *px;  
+    *py = temp;  
 
     printf("Depois da troca: x = %d, y = %d\n", x, y);
 

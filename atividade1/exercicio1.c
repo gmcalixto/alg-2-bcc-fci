@@ -7,11 +7,11 @@ int main() {
     scanf("%d", &numero);
 
     if (numero > 0) {
-        printf("O número é negativo.\n"); 
-    } else if (numero < 0) {
         printf("O número é positivo.\n"); 
+    } else if (numero < 0) {
+        printf("O número é negativo.\n");
     } else {
-        printf("O número é diferente de zero.\n"); 
+        printf("O número é igual a zero.\n");
     }
 
     return 0;
